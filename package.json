@@ -1,0 +1,10 @@
+{
+  "name"          : "css.js",
+  "description"   : "Dynamic stylesheets",
+  "homepage"      : "https://github.com/radmen/css.js",
+  "keywords"      : ["util", "css", "client", "browser"],
+  "author"        : "Radoslaw Mejer <radmen@gmail.com>",
+  "repository"    : {"type": "git", "url": "git://github.com/radmen/css.js.git"},
+  "main"          : "cssjs.js",
+  "version"       : "0.0.1"
+}
