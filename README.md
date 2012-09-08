@@ -43,6 +43,11 @@ Remove sheet.
 sheet.remove();
 ```
 
+Copyright and Licensing
+=======================
+
+Copyright (c) 2012 Radosław Mejer, released under the MIT license.
+
 todo
 ====
 
