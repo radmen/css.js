@@ -11,7 +11,7 @@ extend = (extendedVar, object) ->
 
   return
 
-is_object = (object) -> '[object Object]' is Object.prototype.toString.call object
+is_object = (object) -> '[object Object]' is Object.prototype.toString.call(object)
 
 class Selector
 
@@ -25,7 +25,7 @@ class Selector
     extend(@props, properties)
     @refresh()
 
-    this
+    return @
 
   refresh: ->
     parts = []
@@ -33,7 +33,7 @@ class Selector
     for own name, value of @props
       parts.push("#{name}:#{value}")
 
-    @node.nodeValue = "#{@name} { #{parts.join ';'}; }"
+    @node.nodeValue = "#{@name} { #{parts.join(';')}; }"
     
     return
 
