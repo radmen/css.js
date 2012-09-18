@@ -6,5 +6,5 @@
   "author"        : "Radoslaw Mejer <radmen@gmail.com>",
   "repository"    : {"type": "git", "url": "git://github.com/radmen/css.js.git"},
   "main"          : "cssjs.js",
-  "version"       : "0.0.1"
+  "version"       : "0.0.2"
 }
