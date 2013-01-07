@@ -102,7 +102,7 @@
         delete this.properties;
         return null;
       }
-      if (typeof selector === 'string' && this.selector[selector]) {
+      if (typeof selector === 'string' && this.selectors[selector]) {
         this.node.removeChild(this.selectors[selector].getNode());
         delete this.selectors[selector];
       }

@@ -75,7 +75,7 @@ class Sheet
 
       return null
 
-    if typeof selector is 'string' and @selector[selector]
+    if typeof selector is 'string' and @selectors[selector]
       @node.removeChild(@selectors[selector].getNode())
       delete @selectors[selector]
 
